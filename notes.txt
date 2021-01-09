@@ -1,0 +1,33 @@
+compiler
+
+    src/cmd/compile/README.go
+    src/cmd/compile/main.go
+
+internal/syntax
+
+    branches.go
+    dumper.go
+
+    nodes.go
+        defines all nodes for parser tree.
+
+    operator_string.go
+    parser.go
+    pos.go
+    printer.go
+
+    scanner.go
+        lex
+
+    source.go
+        a buf reading from io.Reader for lex.
+        used by scanner.go
+
+    syntax.go
+
+    token_string.go
+        generated from tokens.go
+
+    tokens.go
+        defines all tokens, prec, operators.
+
